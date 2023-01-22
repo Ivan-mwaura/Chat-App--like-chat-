@@ -61,7 +61,7 @@ const Register = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Lama Chat</span>
+        <span className="logo">Lets Chat</span>
         <span className="title">Register</span>
         <form onSubmit={handleSubmit}>
           <input required type="text" placeholder="display name" />
@@ -79,6 +79,7 @@ const Register = () => {
         <p>
           You do have an account? <Link to="/login">Login</Link>
         </p>
+        <p>created by Evan Mwaura</p>
       </div>
     </div>
   );
