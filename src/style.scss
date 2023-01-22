@@ -112,7 +112,7 @@
       background-color: #3e3c61;
       position: relative;
       @include mobile {
-        flex:1;
+          flex: 0.5;
        }
    
 
@@ -208,8 +208,10 @@
       }
     }
     .chat {
-      flex: 2;
-    
+      flex: 3;
+      @include mobile {
+          flex: 2.5;
+       }
 
       .chatInfo {
         height: 50px;
