@@ -113,7 +113,8 @@
       background-color: #3e3c61;
       position: relative;
       @include mobile {
-          flex: 0.5;
+         flex-flow: row;
+
     
        }
    
